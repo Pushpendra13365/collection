@@ -4,18 +4,20 @@ import java.util.*;
 
 public class HashSet1 {
     public static void main(String[] args) {
-        TreeSet<String> hs = new TreeSet<>();
+        HashSet<String> hs = new HashSet<>();
         hs.add("Ram");
         hs.add("Rama");
-//        hs.add(null);
+        hs.add("Ram");
+        hs.add(null);
+        hs.add(null);
         System.out.println(hs);
-        HashSet<String> hs1 = new HashSet<>();
-        hs1.add("Pushpendra");
-        hs1.add("Rajat");
+//        HashSet<String> hs1 = new HashSet<>();
+//        hs1.add("Pushpendra");
+//        hs1.add("Rajat");
         //boolean addAll = hs.addAll(hs1);
         //hs.clear();
         //boolean contains = hs.contains("Rama");
-        boolean containsAll = hs.containsAll(hs1);
-        System.out.println(containsAll);
+//        boolean containsAll = hs.containsAll(hs1);
+//        System.out.println(containsAll);
     }
 }
